@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+{% block content %}
+
+
+        <div class="container">
+            <br>    
+            <h1>2023년 예상 전기료는 {{ pred }}원 입니다</h1>
+            <br>
+            <h2> 선택하신 조건은 아래와 같습니다.<br><br> <li>행정구역: {{ metro }} </li><br> 
+            <li> 시군구: {{ city }}
+            </li><br>
+            <li> 산업군: {{ biz }} </li><br>
+            <li> 예상 소비 전력량: {{ elec }}</li><br>
+            
+            </h2>
+        </div>
+        
+        
+{% endblock %}

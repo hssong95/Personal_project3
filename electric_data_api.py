@@ -94,3 +94,4 @@ for y in range(2007,2023):
 
 conn.commit()
 conn.close()
+print('Finished')
